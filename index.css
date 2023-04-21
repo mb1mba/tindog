@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Thin.ttf);
+}
+
+body{
+    font-family: 'Poppins';
+    width: 550px;
+    margin: 0 auto;
+    min-width: 550px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+
+header{
+    margin: 0;
+    background: #FFFFFF;
+    width: 550px;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-icon{
+    height: 34px;
+    width: 34px;
+}
+
+.header-logo{
+    width: 84px;
+    height: 42px;
+}
+
+.dog-data{
+    max-width: 534px;
+    display: grid;
+    grid-template: 575px/ 1fr;
+}
+
+#dog{
+    text-align: center;
+    max-height: 752px;
+}
+
+.avatar{
+    width: 534px;
+    height: 751.44px;
+    border: none;
+    border-radius: 25px;
+}
+
+.badge {
+    display: none;
+    position: absolute;
+    top : 150px;
+    padding-left: 25px;
+    width: 233.91px;
+    height: 116.26px;
+    transform: rotate(-30deg);
+}
+
+.dogs-html-data{
+    width: 350px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.dog-name{
+    font-weight: bolder;
+    font-size: 32px;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+    justify-self: center;
+}
+
+.dog-bio{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+}
+.dog-name,
+.dog-bio{
+    padding-left:20px;
+}
+
+#btn{
+    margin: 25px 0;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+}
+
+.btnBtn{
+    cursor: pointer;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.btnBtn:hover{
+    transform: scale(1.1);
+}

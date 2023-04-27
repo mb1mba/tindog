@@ -4,7 +4,7 @@ class Dogs {
     }
 
     getDogHtml(){
-        const { name, avatar, age, bio, hasBeenSwiped, hasBeenLiked } = this
+        const { name, avatar, age, bio} = this
         return `
             <div class="dog-data">
                 <img class="avatar" src="${avatar}">
